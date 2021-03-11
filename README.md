@@ -13,3 +13,13 @@ VSCodeの「[Remote-Containers](https://marketplace.visualstudio.com/items?itemN
 ### Node.js
 「[VSCode + Docker でフロントエンドの開発環境構築](https://qiita.com/terukazu/items/b78afe75fe6b2c918604)」を参照してください。
 
+## dockerhub
+
+* [nodejs](https://hub.docker.com/repository/docker/codianz/nodejs)
+  * codianz/nodejs:14.16.0
+
+### コマンドメモ
+
+```sh
+docker build -t codianz/XXXX:a.b.c .
+```
